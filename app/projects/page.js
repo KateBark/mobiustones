@@ -33,7 +33,7 @@ export default function Projects() {
         {projects.map((p, i) => (
           <article key={i} className="panel p-5 rounded-lg">
             <div className="flex items-start gap-4">
-              <div className="w-20 h-20 rounded-md bg-gradient-to-br from-white/3 to-white/2 flex items-center justify-center">
+              <div className="w-20 h-20 rounded-md bg-linear-to-br from-white/3 to-white/2 flex items-center justify-center">
                 {/* placeholder image box */}
                 <Image
                   src={p.img}
