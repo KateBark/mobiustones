@@ -6,7 +6,7 @@ const projects = [
     desc: "A soothing digital oracle offering gentle prompts and daily reflections. Designed to help users reconnect without the noise of social media.",
     tech: "React, Next.js, Vercel",
     status: "Released on Google Play",
-    img: "/placeholder-project-1.png",
+    img: "/compassrosy-logo.png",
   },
   {
     title: "Stalagmite (in development)",
