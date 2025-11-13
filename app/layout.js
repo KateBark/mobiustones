@@ -10,14 +10,17 @@ const robotoMono = Roboto_Mono({
 });
 
 export const metadata = {
-  title: "MobiusTones",
+  title: {
+    template: "%s | MobiusTones",
+    default: "Welcome | MobiusTones",
+  },
   description: "Thoughtful, minimalist mobile & web experiences.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="dark">
-      <body className={`${robotoMono.className}`}>
+      <body className={`${robotoMono.className} antialiased`}>
         <div className="min-h-screen flex flex-col">
           <Header />
           <main className="flex-1 max-w-5xl w-full mx-auto px-6 py-10">

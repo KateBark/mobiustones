@@ -4,12 +4,12 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <header className="w-full border-b border-white/4 panel">
+    <header className="w-full panel">
       <div className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-3">
           <div className="w-10 h-10 rounded-full overflow-hidden flex items-center justify-center">
             <Image
-              src="/mobiustones-dev-logo.png"
+              src="/icon.png"
               alt="logo"
               width={40}
               height={40}
@@ -19,19 +19,22 @@ export default function Header() {
           <span className="font-medium">MobiusTones</span>
         </Link>
 
-        <nav className="flex items-center gap-4">
+        <nav className="flex items-center gap-10">
           <Link
             href="/projects"
-            className="text-sm text-gray-300 hover:underline"
+            className="text-sm text-gray-300 hover:text-green-900 transition-colors"
           >
             Projects
           </Link>
-          <Link href="/about" className="text-sm text-gray-300 hover:underline">
+          <Link
+            href="/about"
+            className="text-sm text-gray-300 hover:text-green-900 transition-colors"
+          >
             About
           </Link>
           <Link
             href="/contact"
-            className="text-sm text-gray-300 hover:underline"
+            className="text-sm text-gray-300 hover:text-green-900 transition-colors"
           >
             Contact
           </Link>

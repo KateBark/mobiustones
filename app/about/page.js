@@ -1,3 +1,5 @@
+export const metadata = { title: "About" };
+
 export default function About() {
   return (
     <section className="max-w-3xl mx-auto">

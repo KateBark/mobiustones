@@ -1,12 +1,15 @@
 import Image from "next/image";
 
+export const metadata = { title: "Projects" };
+
 const projects = [
   {
     title: "CompassRosy: The Cozy Oracle",
     desc: "A soothing digital oracle offering gentle prompts and daily reflections. Designed to help users reconnect without the noise of social media.",
-    tech: "React, Next.js, Vercel",
+    tech: "React, Next.js, Capacitor",
     status: "Released on Google Play",
-    img: "/compassrosy-logo.png",
+    // add Download from Google Play button
+    img: "/compassrosy-logo.jpeg",
   },
   {
     title: "Stalagmite (in development)",

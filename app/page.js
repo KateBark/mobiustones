@@ -6,12 +6,12 @@ export default function Home() {
   return (
     <section className="mx-auto max-w-3xl text-center">
       <div className="flex items-center justify-center mb-8">
-        <div className="w-36 h-36 rounded-full panel flex items-center justify-center logo-glow animate-glow">
+        <div className="w-70 h-70 rounded-full panel flex items-center justify-center logo-glow animate-glow">
           <Image
-            src="/mobiustones-dev-logo.png"
+            src="/icon.png"
             alt="MobiusTones logo"
-            width={120}
-            height={120}
+            width={500}
+            height={500}
             className="object-contain"
           />
         </div>
@@ -28,13 +28,13 @@ export default function Home() {
       <div className="flex justify-center gap-4 mt-6">
         <Link
           href="/projects"
-          className="px-5 py-3 panel rounded-md hover:scale-[1.02] transition"
+          className="px-5 py-3 panel rounded-md hover:scale-[1.08] transition hover:text-green-900"
         >
           Explore Projects
         </Link>
         <Link
           href="/contact"
-          className="px-5 py-3 border border-transparent rounded-md"
+          className="px-5 py-3 panel rounded-md hover:scale-[1.08] transition hover:text-green-900"
           style={{ background: "transparent" }}
         >
           Contact
