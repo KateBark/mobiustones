@@ -2,7 +2,7 @@
 
 :root {
   --bg: #050507; /* near black */
-  --panel: #0b0b0d;
+  /* --panel: #0b0b0d; */
   --muted: #9aa0a6;
   --accent: #73dad3; /* subtle green */
 }
@@ -33,15 +33,15 @@ body {
 }
 
 /* soft glass panel */
-.panel {
+/* .panel {
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0.02),
     rgba(255, 255, 255, 0.01)
   );
-  /* border: 1px solid rgba(255, 255, 255, 0.04); */
+  border: 1px solid rgba(255, 255, 255, 0.04);
   backdrop-filter: blur(6px) saturate(120%);
-}
+} */
 
 /* subtle logo glow */
 .logo-glow {

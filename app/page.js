@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <section className="mx-auto max-w-3xl text-center">
-      <div className="flex items-center justify-center mb-8">
+      <div className="flex items-center justify-center mb-12 mt-4">
         <div className="w-70 h-70 rounded-full panel flex items-center justify-center logo-glow animate-glow">
           <Image
             src="/icon.png"
@@ -18,7 +18,7 @@ export default function Home() {
       </div>
 
       <h1 className="text-4xl font-semibold mb-4 fade-up">
-        MobiusTones — thoughtful, minimalist mobile & web experiences
+        Thoughtful, minimalist mobile & web experiences
       </h1>
       <p className="text-muted-foreground mb-6 text-gray-300">
         Independent studio crafting simple, intuitive apps and games built with
