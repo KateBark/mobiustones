@@ -5,25 +5,25 @@ export const metadata = { title: "Projects" };
 const projects = [
   {
     title: "CompassRosy: The Cozy Oracle",
-    desc: "A soothing digital oracle offering gentle prompts and daily reflections. Designed to help users reconnect without the noise of social media.",
+    desc: "A soothing digital oracle to help users reconnect without the noise of social media.",
     tech: "React, Next.js, Capacitor",
-    status: "Released on Google Play",
+    status: "In Google Play beta testing",
     // add Download from Google Play button
     img: "/compassrosy-logo.jpeg",
   },
   {
     title: "Stalagmite (in development)",
     desc: "A retro-style flying game through glowing caves—fast gameplay, pixel charm.",
-    tech: "React Native (Expo)",
+    tech: "React, Next.js, Capacitor",
     status: "Early development",
-    img: "/placeholder-project-2.png",
+    img: "/stalagmite.png",
   },
   {
-    title: "Food Frenzy (concept)",
-    desc: "A cheerful matching game with ice cream scoops and unlockable flavours.",
+    title: "Sleepy Phone (concept)",
+    desc: "A cozy sleep-tracking app that rewards phone-free time with cute animations.",
     tech: "Design concept",
     status: "Concept",
-    img: "/placeholder-project-3.png",
+    img: "/sleepy-phone-favicon.png",
   },
 ];
 
@@ -37,7 +37,6 @@ export default function Projects() {
           <article key={i} className="panel p-5 rounded-lg">
             <div className="flex items-start gap-4">
               <div className="w-20 h-20 rounded-md bg-linear-to-br from-white/3 to-white/2 flex items-center justify-center">
-                {/* placeholder image box */}
                 <Image
                   src={p.img}
                   alt={p.title}

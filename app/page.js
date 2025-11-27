@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <section className="mx-auto max-w-3xl text-center">
-      <div className="flex items-center justify-center mb-12 mt-4">
+      <div className="flex items-center justify-center mb-20 mt-4">
         <div className="w-70 h-70 rounded-full panel flex items-center justify-center logo-glow animate-glow">
           <Image
             src="/icon.png"
