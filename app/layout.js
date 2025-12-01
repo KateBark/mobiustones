@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
       <body className={`${robotoMono.className} antialiased`}>
         <div className="min-h-screen flex flex-col">
           <Header />
-          <main className="flex-1 max-w-5xl w-full mx-auto px-6 py-10">
+          <main className="flex-1 max-w-5xl w-full mx-auto px-4 sm:px-6 py-10">
             {children}
           </main>
           <Footer />
