@@ -25,6 +25,14 @@ const projects = [
     status: "Concept",
     img: "/sleepy-phone-favicon.png",
   },
+  {
+    title: "Emerson Fyne - Official Website",
+    desc: "A clean, immersive portfolio showcasing music of Emerson Fyne.",
+    tech: "Next.js, React, Tailwind CSS, Vercel",
+    status: "Live",
+    img: "/ef-website-logo.png",
+    link: "https://emersonfyne.com",
+  },
 ];
 
 export default function Projects() {
@@ -52,6 +60,16 @@ export default function Projects() {
                   <strong>Tech:</strong> {p.tech} • <strong>Status:</strong>{" "}
                   {p.status}
                 </p>
+                {p.link && (
+                  <a
+                    href={p.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-emerald-600 hover:underline mt-2 inline-block"
+                  >
+                    Visit website →
+                  </a>
+                )}
               </div>
             </div>
           </article>
