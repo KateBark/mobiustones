@@ -14,7 +14,7 @@ const projects = [
   },
   {
     title: "Stalagmite (in development)",
-    desc: "A retro-style flying game through glowing caves—fast gameplay, pixel charm.",
+    desc: "A retro-style flying game through glowing caves — fast gameplay, pixel charm.",
     tech: "React, Next.js, Capacitor",
     status: "Early development",
     img: "/stalagmite.png",
