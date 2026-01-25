@@ -13,6 +13,22 @@ const projects = [
     link: "https://compassrosy.vercel.app",
   },
   {
+    title: "Emerson Fyne - Official Website",
+    desc: "A clean, immersive portfolio showcasing music of Emerson Fyne.",
+    tech: "Next.js, React, Tailwind CSS, Vercel",
+    status: "Live",
+    img: "/ef-website-logo.png",
+    link: "https://emersonfyne.com",
+  },
+  {
+    title: "Choice Canopy: Your Decision Helper",
+    desc: "A supportive AI-powered app to eliminate analysis paralysis.",
+    tech: "OpenAI API,Next.js, Capacitor",
+    status: "In development",
+    // add Download from Google Play button
+    img: "/choice-canopy-logo.png",
+  },
+  {
     title: "Stalagmite (in development)",
     desc: "A retro-style flying game through glowing caves — fast gameplay, pixel charm.",
     tech: "React, Next.js, Capacitor",
@@ -26,14 +42,6 @@ const projects = [
     status: "Concept",
     img: "/sleepy-phone-favicon.png",
   },
-  {
-    title: "Emerson Fyne - Official Website",
-    desc: "A clean, immersive portfolio showcasing music of Emerson Fyne.",
-    tech: "Next.js, React, Tailwind CSS, Vercel",
-    status: "Live",
-    img: "/ef-website-logo.png",
-    link: "https://emersonfyne.com",
-  },
 ];
 
 export default function Projects() {
@@ -45,13 +53,13 @@ export default function Projects() {
         {projects.map((p, i) => (
           <article key={i} className="panel p-5 rounded-lg">
             <div className="flex items-start gap-4">
-              <div className="w-20 h-20 rounded-md bg-linear-to-br from-white/3 to-white/2 flex items-center justify-center">
+              <div className="w-20 h-20 rounded-md bg-gradient-to-br from-white/10 to-white/5 flex items-center justify-center flex-shrink-0">
                 <Image
                   src={p.img}
                   alt={p.title}
                   width={64}
                   height={64}
-                  className="object-cover"
+                  className="object-contain"
                 />
               </div>
               <div>
