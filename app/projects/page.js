@@ -10,6 +10,7 @@ const projects = [
     status: "In Google Play beta testing",
     // add Download from Google Play button
     img: "/compassrosy-logo.jpeg",
+    link: "https://compassrosy.vercel.app",
   },
   {
     title: "Stalagmite (in development)",
@@ -67,7 +68,7 @@ export default function Projects() {
                     rel="noopener noreferrer"
                     className="text-sm text-emerald-600 hover:underline mt-2 inline-block"
                   >
-                    Visit website →
+                    Visit →
                   </a>
                 )}
               </div>
