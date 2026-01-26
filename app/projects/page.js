@@ -27,6 +27,7 @@ const projects = [
     status: "In development",
     // add Download from Google Play button
     img: "/choice-canopy-favicon.png",
+    // link: "https://choice-canopy.vercel.app",
   },
   {
     title: "Stalagmite (in development)",
