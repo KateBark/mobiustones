@@ -4,12 +4,12 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="w-full mt-12 py-6 text-center text-sm text-gray-400">
-      <div className="max-w-5xl mx-auto px-6">
+    <footer className="w-full mt-12 py-4 sm:py-6 text-center text-xs sm:text-sm text-gray-400">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6">
         <div className="opacity-80">
           © {new Date().getFullYear()} MobiusTones
         </div>
-        <div className="flex justify-center space-x-20 mt-2">
+        <div className="flex flex-wrap justify-center gap-4 sm:gap-6 md:space-x-20 mt-2">
           <Link
             href="https://github.com/KateBark/"
             target="_blank"
