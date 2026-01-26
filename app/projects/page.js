@@ -26,7 +26,7 @@ const projects = [
     tech: "OpenAI API,Next.js, Capacitor",
     status: "In development",
     // add Download from Google Play button
-    img: "/choice-canopy-logo.png",
+    img: "/choice-canopy-favicon.png",
   },
   {
     title: "Stalagmite (in development)",
