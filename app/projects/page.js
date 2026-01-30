@@ -21,9 +21,18 @@ const projects = [
     link: "https://emersonfyne.com",
   },
   {
+    title: "Now Feels: A Moment of Noticing",
+    desc: "A quiet place to name what this moment feels like.",
+    tech: "Reach, Next.js, Tailwind CSS, Vercel",
+    status: "v1.0 Vercel deployed",
+    // add Download from Google Play button
+    img: "/now-feels-favicon.png",
+    link: "https://now-feels.vercel.app",
+  },
+  {
     title: "Choice Canopy: Your Decision Helper",
     desc: "A supportive AI-powered app to eliminate analysis paralysis.",
-    tech: "OpenAI API,Next.js, Capacitor",
+    tech: "OpenAI API, Next.js, Capacitor",
     status: "In development",
     // add Download from Google Play button
     img: "/choice-canopy-favicon.png",
