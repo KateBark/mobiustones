@@ -39,14 +39,14 @@ const projects = [
     // link: "https://choice-canopy.vercel.app",
   },
   {
-    title: "Stalagmite (in development)",
+    title: "Stalagmite",
     desc: "A retro-style flying game through glowing caves — fast gameplay, pixel charm.",
     tech: "React, Next.js, Capacitor",
     status: "Early development",
     img: "/stalagmite.png",
   },
   {
-    title: "Sleepy Phone (concept)",
+    title: "Sleepy Phone",
     desc: "A cozy sleep-tracking app that rewards phone-free time with cute animations.",
     tech: "Design concept",
     status: "Concept",
