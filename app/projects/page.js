@@ -26,7 +26,7 @@ const projects = [
     tech: "Reach, Next.js, Tailwind CSS, Vercel",
     status: "v1.0 Vercel deployed",
     // add Download from Google Play button
-    img: "/now-feels.png",
+    img: "/now-feels-favicon-cropped.png",
     link: "https://now-feels.vercel.app",
   },
   {
