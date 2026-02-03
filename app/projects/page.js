@@ -33,10 +33,10 @@ const projects = [
     title: "Choice Canopy: Your Decision Helper",
     desc: "A supportive AI-powered app to eliminate analysis paralysis.",
     tech: "OpenAI API, Next.js, Capacitor",
-    status: "In development",
+    status: "v1.0 Vercel deployed",
     // add Download from Google Play button
     img: "/choice-canopy-favicon.png",
-    // link: "https://choice-canopy.vercel.app",
+    link: "https://choice-canopy.vercel.app",
   },
   {
     title: "Stalagmite",
