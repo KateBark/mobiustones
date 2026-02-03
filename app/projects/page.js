@@ -63,13 +63,12 @@ export default function Projects() {
         {projects.map((p, i) => (
           <article key={i} className="panel p-5 rounded-lg">
             <div className="flex items-start gap-4">
-              <div className="w-20 h-20 rounded-md bg-linear-to-br from-white/10 to-white/5 flex items-center justify-center shrink-0">
+              <div className="relative w-20 h-20 rounded-md overflow-hidden shrink-0">
                 <Image
                   src={p.img}
                   alt={p.title}
-                  width={64}
-                  height={64}
-                  className="object-contain"
+                  fill
+                  className="object-cover"
                 />
               </div>
               <div>
