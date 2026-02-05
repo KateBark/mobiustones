@@ -35,7 +35,7 @@ const projects = [
     tech: "OpenAI API, Next.js, Capacitor",
     status: "v1.0 Vercel deployed",
     // add Download from Google Play button
-    img: "/choice-canopy-favicon.png",
+    img: "/choice-canopy-logo-cropped.png",
     link: "https://choice-canopy.vercel.app",
   },
   {
